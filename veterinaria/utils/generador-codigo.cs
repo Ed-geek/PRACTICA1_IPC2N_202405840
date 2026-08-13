@@ -1,6 +1,6 @@
 using System;
 
-namespace Utils
+namespace veterinaria.utils
 {
     public static class GeneradorCodigo
     {

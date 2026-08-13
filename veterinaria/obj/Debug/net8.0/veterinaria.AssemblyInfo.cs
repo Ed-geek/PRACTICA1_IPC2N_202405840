@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("veterinaria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1625d3f9898a1b5d8817d4047dfad7e4e632a3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9dba1ca5fff4fd78ea0dd722d82cce07f8f296b")]
 [assembly: System.Reflection.AssemblyProductAttribute("veterinaria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("veterinaria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
