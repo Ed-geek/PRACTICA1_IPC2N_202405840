@@ -1,0 +1,15 @@
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/bin/Debug/net8.0/veterinaria
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/bin/Debug/net8.0/veterinaria.deps.json
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/bin/Debug/net8.0/veterinaria.runtimeconfig.json
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/bin/Debug/net8.0/veterinaria.dll
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/bin/Debug/net8.0/veterinaria.pdb
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.GeneratedMSBuildEditorConfig.editorconfig
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.AssemblyInfoInputs.cache
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.AssemblyInfo.cs
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.csproj.CoreCompileInputs.cache
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.sourcelink.json
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.dll
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/refint/veterinaria.dll
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.pdb
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/veterinaria.genruntimeconfig.cache
+/home/eduardo/Documentos/Usac/SEMESTRE/Semestre6/LAB-IPC2/PRACTICAS/veterinaria/obj/Debug/net8.0/ref/veterinaria.dll
