@@ -111,7 +111,74 @@ namespace veterinaria
         //OPCIÓN DOS DEL MENÚ PRINCIPAL: GESTIONAR PACIENTES
         static void GestionarPacientes()
         {
-            
+            Console.Clear();
+
+
+           if (veterinaria.CantidadPacientes() == 0)
+           {
+               Console.WriteLine("No hay pacientes registrados.");
+               MenuConsola.Pausa();
+               return;
+           }
+
+
+           veterinaria.MostrarLista();
+
+
+           Console.Write("\nSeleccione el número del paciente a gestionar (0 para cancelar): ");
+           int indice = MenuConsola.LeerOpcion(0, veterinaria.CantidadPacientes());
+
+
+           if (indice == 0)
+               return;
+
+
+           Mascota mascota = veterinaria.ObtenerTodos()[indice - 1];
+           bool volver = false;
+
+            //OPCIONES DE MASCOTAS
+           while (!volver)
+           {
+               Console.Clear();
+               Console.WriteLine($"--- GESTIÓN DE {mascota.Nombre.ToUpper()} ---");
+               Console.WriteLine("1. Cambiar estado (enfermo/sano)");
+               Console.WriteLine("2. Calcular dosis de medicamento");
+               Console.WriteLine("3. Mostrar información completa");
+               Console.WriteLine("4. Volver al menú anterior");
+               Console.Write("Opción: ");
+               int opcion = MenuConsola.LeerOpcion(1, 4);
+
+
+               switch (opcion)
+               {
+                   case 1:
+                       mascota.CambiarEstado();
+                       Console.WriteLine($"Estado actualizado a: {(mascota.Enfermo ? "Enfermo" : "Sano")}");
+                       MenuConsola.Pausa();
+                       break;
+
+
+                   case 2:
+                       double dosisPorKg = MenuConsola.LeerDouble("Ingrese la dosis estándar (mg/kg): ");
+                       double dosis = mascota.CalcularDosis(dosisPorKg);
+                       Console.WriteLine($"La dosis calculada para {mascota.Nombre} es: {dosis:F2} mg");
+                       MenuConsola.Pausa();
+                       break;
+
+
+                   case 3:
+                       Console.WriteLine("\n--- INFORMACIÓN COMPLETA ---");
+                       mascota.MostrarInformacion();
+                       MenuConsola.Pausa();
+                       break;
+
+
+                   case 4:
+                       volver = true;
+                       break;
+               }
+           }
+
         }
     }
 }
