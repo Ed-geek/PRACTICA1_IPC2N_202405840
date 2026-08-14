@@ -3,7 +3,7 @@ using veterinaria.utils;
 
 namespace veterinaria.models
 {
-    public abstract class mascota
+    public abstract class Mascota
     {
         private string nombre;
         private double peso;
@@ -12,17 +12,6 @@ namespace veterinaria.models
         private string propietario;
         private string codigo;
         private bool enfermo;
-
-        public mascota(string nombre, double peso, string sexo, int edad, string propietario, bool enfermo)
-        {
-            this.nombre = nombre;
-            this.peso = peso;
-            this.sexo = sexo;
-            this.edad = edad;
-            this.propietario = propietario;
-            this.enfermo = enfermo;
-            this.codigo = GeneradorCodigo.Generar();
-        }
 
         public string Nombre
         {
@@ -53,18 +42,28 @@ namespace veterinaria.models
             private set { enfermo = value; }
         }
 
+        public Mascota(string nombre, double peso, string sexo, int edad,
+                       string propietario, bool enfermo)
+        {
+            this.nombre = nombre;
+            this.peso = peso;
+            this.sexo = sexo;
+            this.edad = edad;
+            this.propietario = propietario;
+            this.enfermo = enfermo;
+            this.codigo = GeneradorCodigo.Generar();
+        }
+
         public virtual double CalcularDosis(double dosis_por_Kg)
         {
             return peso * dosis_por_Kg;
         }
 
-        // Cambiar estado (alterna entre enfermo y sano)
         public void CambiarEstado()
         {
             enfermo = !enfermo;
         }
 
-        // Mostrar información común
         public virtual void MostrarInformacion()
         {
             Console.WriteLine($"[{codigo}] {nombre} | {sexo} | {edad} años");
